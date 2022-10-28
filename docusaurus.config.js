@@ -71,8 +71,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/Juancp13/EscLibrary',
+            src: 'img/GitHub-Mark-32px.png',
             position: 'right',
           },
         ],
