@@ -65,7 +65,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'intro/index',
             position: 'left',
             label: 'Library',
           },
@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Library',
-                to: '/docs/index',
+                to: '/docs/intro/index',
               },
             ],
           },
