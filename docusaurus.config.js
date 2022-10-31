@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'EscLibrary',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -65,9 +65,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'sanitizar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Library',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -84,8 +84,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Library',
+                to: '/docs/sanitizar',
               },
             ],
           },
@@ -93,16 +93,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'HackTheBox',
+                href: 'https://app.hackthebox.com/profile/1171474',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/juancontreraspiqueras/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'TryHackMe',
+                href: 'https://tryhackme.com/p/escman',
               },
             ],
           },
@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} EscLibrary, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
